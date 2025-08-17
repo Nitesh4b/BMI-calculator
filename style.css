@@ -1,0 +1,75 @@
+*{
+  padding: 0ex;
+  margin: 0px;
+}
+
+body{
+  margin: 30px 0px 0px 50px;
+}
+
+.headerTitle{
+  font-size: 26px;
+  margin: 0px 0px 30px 0px;
+  font-weight: 600;
+}
+
+/* main */
+
+.fieldWrapper{
+  margin: 15px 0px 0px 30px;
+  font-size: 18px;
+}
+
+.input{
+  margin: 0px 0px 4px 7px;
+  padding: 2px 5px;
+  width: 250px;
+  height: 23px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+#btn{
+  margin: 25px 0px 0px 120px;
+  padding: 2px;
+  width: 85px;
+  height: 30px;
+  font-size: 17px;
+  border: 1px solid rgb(47, 47, 47);
+  border-radius: 5px;
+}
+
+#btn:hover{
+  transition: transform 0.1s ease;
+  cursor: pointer;                  /*for hover effect*/
+  transform: scale(1.1);
+}
+
+.result{
+ margin-top: 30px;
+}
+
+/* footer */
+
+.footerContainer{
+  margin-top: 60px;
+}
+
+.footerAfterSubmit{
+  margin-top: 40px;
+}
+
+.footerTitle{
+  font-weight: 600;
+}
+
+.footerContent{
+  display: flex;
+  flex-direction: column;
+  margin:12px 0px 0px 10px ;
+}
+
+.footerPara{
+  margin: 3px;
+}
